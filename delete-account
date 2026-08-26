@@ -1,80 +1,252 @@
-Account & Data Deletion Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Account and Data Deletion Policy for Highway Runner by Dreamup Studio">
+  <title>Account &amp; Data Deletion Policy | Highway Runner</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #222222;
+      --muted: #667085;
+      --border: #e5e7eb;
+      --panel: #f8fafc;
+      --link: #b91c1c;
+    }
 
-Highway Runner
-Developer: Dreamup Studio
-Effective Date: 18 August 2026
-Last Updated: 18 August 2026
+    * {
+      box-sizing: border-box;
+    }
 
-Dreamup Studio provides players of Highway Runner with a way to request deletion of their account and associated personal information.
+    html {
+      scroll-behavior: smooth;
+    }
 
-1. Requesting Account Deletion
-Where an account deletion option is available inside Highway Runner, you may initiate deletion through that feature.
-You may also submit a deletion request by email.
-Send your request to:
-support.dreamup@gmail.com
-Use the subject:
-Highway Runner – Account Deletion Request
-Please provide sufficient information to identify the Highway Runner account you want deleted, such as your registered email address or player/account identifier.
-Never send your password.
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
 
-2. Verification
-To protect players from unauthorized account deletion, Dreamup Studio may take reasonable steps to verify that the person requesting deletion is the account owner.
-Additional information may be requested where necessary to verify the request.
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
 
-3. Information That May Be Deleted
-Depending on the information associated with your account, deletion may include:
-•	Highway Runner account information;
-•	Email address associated with the Highway Runner account;
-•	Player profile information;
-•	Stored game progress associated with the account;
-•	Account-linked scores;
-•	Leaderboard information associated with the account, where technically and legally appropriate; and
-•	Other personal information associated with the account that Dreamup Studio is not required or permitted to retain.
-The exact data affected depends on the Highway Runner features and services used by the player.
+    header {
+      margin-bottom: 36px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
 
-4. Leaderboard Information
-Deleting an account may result in the player's name and associated leaderboard information being deleted, anonymized or otherwise disassociated from the deleted account where appropriate.
-Technical limitations of third-party leaderboard systems may affect how historical leaderboard information is removed.
+    h1 {
+      margin: 0 0 20px;
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      line-height: 1.15;
+    }
 
-5. Information That May Be Retained
-Certain limited information may be retained after an account deletion request where necessary or permitted for:
-•	Legal compliance;
-•	Security;
-•	Fraud and abuse prevention;
-•	Enforcement of our Terms of Service;
-•	Resolving disputes;
-•	Financial or transaction records where legally required; or
-•	Backup and disaster-recovery systems for a limited period.
-Information retained for these purposes will not be used to continue normal operation of the deleted player account.
+    h2 {
+      margin: 42px 0 14px;
+      font-size: 1.5rem;
+      line-height: 1.3;
+    }
 
-6. Processing Time
-Dreamup Studio will process valid deletion requests within a reasonable period and within any timeframe required by applicable law.
-Additional time may be necessary where identity or account ownership needs to be verified or where technical limitations apply.
+    p {
+      margin: 10px 0 16px;
+    }
 
-7. Consequences of Account Deletion
-Account deletion may be permanent.
-Once deletion has been completed, you may lose access to:
-•	Your Highway Runner account;
-•	Saved progress;
-•	High scores;
-•	Leaderboard records;
-•	Achievements;
-•	Account-linked settings; and
-•	Other information associated with the deleted account.
-Deleted information may not be recoverable.
+    ul {
+      margin: 8px 0 18px 24px;
+      padding: 0;
+    }
 
-8. Guest Accounts
-Guest accounts may work differently from registered accounts.
-Depending on how guest information is stored, deleting Highway Runner or clearing application data may remove locally stored guest information.
-Where guest information is stored by Dreamup Studio or a service provider and can be associated with a particular player, you may contact us for assistance with a deletion request.
+    li {
+      margin: 5px 0;
+    }
 
-9. Third-Party Accounts
-Deleting a Highway Runner account does not necessarily delete your separate Google, Facebook or other third-party account.
-Similarly, deleting or disconnecting a third-party account does not necessarily constitute a request to delete information held by Highway Runner.
-You may need to manage information held independently by third-party providers through their own account and privacy controls.
+    .meta,
+    .contact-box {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+    }
 
-10. Questions About Data Deletion
-For questions concerning account or personal data deletion, contact:
-Dreamup Studio
-Game: Highway Runner
-Email: support.dreamup@gmail.com
+    .meta {
+      margin-bottom: 24px;
+    }
+
+    .meta p,
+    .contact-box p {
+      margin: 4px 0;
+    }
+
+    .contact-box {
+      margin: 14px 0 20px;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: min(100% - 24px, 920px);
+        padding-top: 28px;
+      }
+
+      h2 {
+        margin-top: 34px;
+      }
+
+      body {
+        font-size: 15.5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Account &amp; Data Deletion Policy</h1>
+
+      <div class="meta">
+        <p><strong>Game:</strong> Highway Runner</p>
+        <p><strong>Developer:</strong> Dreamup Studio</p>
+        <p><strong>Effective Date:</strong> 18 August 2026</p>
+        <p><strong>Last Updated:</strong> 18 August 2026</p>
+      </div>
+
+      <p>Dreamup Studio provides players of Highway Runner with a way to request deletion of their account and associated personal information.</p>
+    </header>
+
+    <section>
+      <h2>1. Requesting Account Deletion</h2>
+      <p>Where an account deletion option is available inside Highway Runner, you may initiate deletion through that feature.</p>
+      <p>You may also submit a deletion request by email.</p>
+      <p>Send your request to:</p>
+
+      <div class="contact-box">
+        <p><strong>Email:</strong> <a href="mailto:support.dreamup@gmail.com">support.dreamup@gmail.com</a></p>
+        <p><strong>Subject:</strong> Highway Runner – Account Deletion Request</p>
+      </div>
+
+      <p>Please provide sufficient information to identify the Highway Runner account you want deleted, such as your registered email address or player/account identifier.</p>
+      <p><strong>Never send your password.</strong></p>
+    </section>
+
+    <section>
+      <h2>2. Verification</h2>
+      <p>To protect players from unauthorized account deletion, Dreamup Studio may take reasonable steps to verify that the person requesting deletion is the account owner.</p>
+      <p>Additional information may be requested where necessary to verify the request.</p>
+    </section>
+
+    <section>
+      <h2>3. Information That May Be Deleted</h2>
+      <p>Depending on the information associated with your account, deletion may include:</p>
+      <ul>
+        <li>Highway Runner account information;</li>
+        <li>Email address associated with the Highway Runner account;</li>
+        <li>Player profile information;</li>
+        <li>Stored game progress associated with the account;</li>
+        <li>Account-linked scores;</li>
+        <li>Leaderboard information associated with the account, where technically and legally appropriate; and</li>
+        <li>Other personal information associated with the account that Dreamup Studio is not required or permitted to retain.</li>
+      </ul>
+      <p>The exact data affected depends on the Highway Runner features and services used by the player.</p>
+    </section>
+
+    <section>
+      <h2>4. Leaderboard Information</h2>
+      <p>Deleting an account may result in the player's name and associated leaderboard information being deleted, anonymized or otherwise disassociated from the deleted account where appropriate.</p>
+      <p>Technical limitations of third-party leaderboard systems may affect how historical leaderboard information is removed.</p>
+    </section>
+
+    <section>
+      <h2>5. Information That May Be Retained</h2>
+      <p>Certain limited information may be retained after an account deletion request where necessary or permitted for:</p>
+      <ul>
+        <li>Legal compliance;</li>
+        <li>Security;</li>
+        <li>Fraud and abuse prevention;</li>
+        <li>Enforcement of our Terms of Service;</li>
+        <li>Resolving disputes;</li>
+        <li>Financial or transaction records where legally required; or</li>
+        <li>Backup and disaster-recovery systems for a limited period.</li>
+      </ul>
+      <p>Information retained for these purposes will not be used to continue normal operation of the deleted player account.</p>
+    </section>
+
+    <section>
+      <h2>6. Processing Time</h2>
+      <p>Dreamup Studio will process valid deletion requests within a reasonable period and within any timeframe required by applicable law.</p>
+      <p>Additional time may be necessary where identity or account ownership needs to be verified or where technical limitations apply.</p>
+    </section>
+
+    <section>
+      <h2>7. Consequences of Account Deletion</h2>
+      <p>Account deletion may be permanent.</p>
+      <p>Once deletion has been completed, you may lose access to:</p>
+      <ul>
+        <li>Your Highway Runner account;</li>
+        <li>Saved progress;</li>
+        <li>High scores;</li>
+        <li>Leaderboard records;</li>
+        <li>Achievements;</li>
+        <li>Account-linked settings; and</li>
+        <li>Other information associated with the deleted account.</li>
+      </ul>
+      <p>Deleted information may not be recoverable.</p>
+    </section>
+
+    <section>
+      <h2>8. Guest Accounts</h2>
+      <p>Guest accounts may work differently from registered accounts.</p>
+      <p>Depending on how guest information is stored, deleting Highway Runner or clearing application data may remove locally stored guest information.</p>
+      <p>Where guest information is stored by Dreamup Studio or a service provider and can be associated with a particular player, you may contact us for assistance with a deletion request.</p>
+    </section>
+
+    <section>
+      <h2>9. Third-Party Accounts</h2>
+      <p>Deleting a Highway Runner account does not necessarily delete your separate Google, Facebook or other third-party account.</p>
+      <p>Similarly, deleting or disconnecting a third-party account does not necessarily constitute a request to delete information held by Highway Runner.</p>
+      <p>You may need to manage information held independently by third-party providers through their own account and privacy controls.</p>
+    </section>
+
+    <section>
+      <h2>10. Questions About Data Deletion</h2>
+      <p>For questions concerning account or personal data deletion, contact:</p>
+
+      <div class="contact-box">
+        <p><strong>Dreamup Studio</strong></p>
+        <p><strong>Game:</strong> Highway Runner</p>
+        <p><strong>Email:</strong> <a href="mailto:support.dreamup@gmail.com">support.dreamup@gmail.com</a></p>
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>© 2026 Dreamup Studio. All rights reserved.</p>
+    </div>
+  </main>
+</body>
+</html>
